@@ -1,0 +1,11 @@
+package taskone;
+public class calculator {
+   public String add(int x,int y) {
+	System.out.println(x+y);
+	return Integer.toString(x+y);
+}
+public static void main(String s[]) {
+	calculator c=new calculator();
+	System.out.println("hi"+c.add(10, 20));
+	}
+}
